@@ -161,7 +161,7 @@ class HashFiles:
     "--check",
     "-c",
     help="Read SHA sums from the FILEs and check them or write to file if file (or folder) "
-         "argument is given",
+    "argument is given",
 )
 @click.option("--algorithm", "-a", help="Choose algorithm for hashing")
 @click.option("--processes", "-p", type=int, help="Processes per core")
